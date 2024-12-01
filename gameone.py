@@ -33,7 +33,7 @@ while option_player_one not in ["1","2","3","4"] or option_player_two not in ["1
 option_player_one = int(option_player_one)
 option_player_two = int(option_player_two)
 
-if option_player_one == option_player_two and option_player_one:
+if option_player_one == option_player_two and option_player_one < 4:
     print("It's a tie!")
 elif option_player_one == 1 and option_player_two == 2:
     print(f"Player one chose {option_player_one} and player two chose {option_player_two}")
