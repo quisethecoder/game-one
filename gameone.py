@@ -9,7 +9,7 @@ menu_player_one = """Player 1, Choose.
 1. Rock
 2. Paper
 3. Scissors
-4. Chose for me
+4. Choose for me
 Select [1-4]: """
 
 menu_player_two = """Player 2, Choose.
