@@ -46,7 +46,7 @@ elif option_player_one == 1 and option_player_two == 3:
     print(f"{name_one} Wins!")
 elif option_player_one == 2 and option_player_two ==1:
     print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
-    print(f"{name_two} Wins")
+    print(f"{name_two} Wins!")
 elif option_player_one == 2 and option_player_two == 3:
      print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
      print(f"{name_two} Wins!")
@@ -67,10 +67,10 @@ elif option_player_one == 4 and option_player_two == 1:
         print(f"{name_two} Wins!")
     elif option_player_one == 1 and option_player_two == 3:
         print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
-        print(f"{name_one} Wins")
+        print(f"{name_one} Wins!")
     elif option_player_one == 2 and option_player_two ==1:
         print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
-        print(f"{name_two} Wins")
+        print(f"{name_two} Wins!")
     elif option_player_one == 2 and option_player_two == 3:
          print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
          print(f"{name_one} Wins!")
@@ -92,10 +92,10 @@ elif option_player_one == 4 and option_player_two == 2:
         print(f"{name_two} Wins!")
     elif option_player_one == 1 and option_player_two == 3:
         print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
-        print(f"{name_one} Wins")
+        print(f"{name_one} Wins!")
     elif option_player_one == 2 and option_player_two ==1:
         print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
-        print(f"{name_two} Wins")
+        print(f"{name_two} Wins!")
     elif option_player_one == 2 and option_player_two == 3:
          print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
          print(f"{name_one} Wins!")
@@ -117,10 +117,10 @@ elif option_player_one == 4 and option_player_two == 3:
         print(f"{name_two} Wins!")
     elif option_player_one == 1 and option_player_two == 3:
         print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
-        print(f"{name_one} Wins")
+        print(f"{name_one} Wins!")
     elif option_player_one == 2 and option_player_two ==1:
         print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
-        print(f"{name_two} Wins")
+        print(f"{name_two} Wins!")
     elif option_player_one == 2 and option_player_two == 3:
          print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
          print(f"{name_one} Wins!")
@@ -142,10 +142,10 @@ elif option_player_one == 1 and option_player_two == 4:
           print(f"{name_two} Wins!")
       elif option_player_one == 1 and option_player_two == 3:
           print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
-          print(f"{name_one} Wins")
+          print(f"{name_one} Wins!")
       elif option_player_one == 2 and option_player_two ==1:
           print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
-          print(f"{name_two} Wins")
+          print(f"{name_two} Wins!")
       elif option_player_one == 2 and option_player_two == 3:
            print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
            print(f"{name_one} Wins!")
@@ -167,10 +167,10 @@ elif option_player_one == 2 and option_player_two == 4:
           print(f"{name_two} Wins!")
       elif option_player_one == 1 and option_player_two == 3:
           print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
-          print(f"{name_one} Wins")
+          print(f"{name_one} Wins!")
       elif option_player_one == 2 and option_player_two ==1:
           print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
-          print(f"{name_two} Wins")
+          print(f"{name_two} Wins!")
       elif option_player_one == 2 and option_player_two == 3:
            print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
            print(f"{name_one} Wins!")
@@ -220,7 +220,7 @@ elif option_player_one == 4 and option_player_two == 4:
           print(f"{name_two} Wins!")
       elif option_player_one == 1 and option_player_two == 3:
           print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
-          print(f"{name_one} Wins")
+          print(f"{name_one} Wins!")
       elif option_player_one == 2 and option_player_two ==1:
           print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
           print(f"{name_two} Wins!")
