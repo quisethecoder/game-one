@@ -258,9 +258,6 @@ select [1-4]: """)
     play_again = input("Do you want to play again [yes/no]: ")
 
 
-
-      
-
 # Step Sequence
 # 1. Give player 1 a menu option to choose betwwen rock paper or scissors
 # Player 1 choose.
