@@ -39,13 +39,13 @@ option_player_two = int(option_player_two)
 if option_player_one == option_player_two and option_player_one < 4:
     print("It's a tie!")
 elif option_player_one == 1 and option_player_two == 2:
-    print(f"{name_one}chose {option_player_one} and {name_two} chose {option_player_two}")
+    print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
     print(f"{name_two} Wins!")
 elif option_player_one == 1 and option_player_two == 3:
-    print(f"{name_one}chose {option_player_one} and {name_two} chose {option_player_two}")
+    print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
     print(f"{name_one} Wins!")
 elif option_player_one == 2 and option_player_two ==1:
-    print(f"{name_one}chose {option_player_one} and {name_two} chose {option_player_two}")
+    print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
     print(f"{name_two} Wins")
 elif option_player_one == 2 and option_player_two == 3:
      print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
@@ -54,7 +54,7 @@ elif option_player_one == 3 and option_player_two == 1:
      print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
      print(f"{name_one} Wins!")
 elif option_player_one == 3 and option_player_two == 2:
-     print(f"{name_one}chose {option_player_one} and {name_two} chose {option_player_two}")
+     print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
      print(f"{name_one} Wins!")
 elif option_player_one == 4 and option_player_two == 1:
     player_one_random = random.randint(1,3)
@@ -84,53 +84,53 @@ elif option_player_one == 4 and option_player_two == 1:
 elif option_player_one == 4 and option_player_two == 2:
     player_one_random = random.randint(1,3)
     option_player_one = player_one_random
-    print(f"We chose {option_player_one} for you.")
+    print(f"We chose {option_player_one} for {name_one}.")
     if option_player_one == option_player_two:
         print("It's a tie!")
     elif option_player_one == 1 and option_player_two == 2:
-        print(f"Player one chose {option_player_one} and player two chose {option_player_two}")
-        print("Player Two Wins!")
+        print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
+        print(f"{name_two} Wins!")
     elif option_player_one == 1 and option_player_two == 3:
-        print(f"Player one chose {option_player_one} and player two chose {option_player_two}")
-        print("Player One Wins")
+        print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
+        print(f"{name_one} Wins")
     elif option_player_one == 2 and option_player_two ==1:
-        print(f"Player one chose {option_player_one} and player two chose {option_player_two}")
-        print("player Two Wins")
+        print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
+        print(f"{name_two} Wins")
     elif option_player_one == 2 and option_player_two == 3:
-         print(f"Player one chose {option_player_one} and player two chose {option_player_two}")
-         print("Player One Wins!")
+         print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
+         print(f"{name_one} Wins!")
     elif option_player_one == 3 and option_player_two == 1:
-         print(f"Player one chose {option_player_one} and player two chose {option_player_two}")
-         print("Player One Wins!")
+         print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
+         print(f"{name_one} Wins!")
     else: 
         option_player_one == 3 and option_player_two == 2
-        print(f"Player one chose {option_player_one} and player two chose {option_player_two}")
-        print("Player Two Wins!")
+        print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
+        print(f"{name_two} Wins!")
 elif option_player_one == 4 and option_player_two == 3:
     player_one_random = random.randint(1,3)
     option_player_one = player_one_random
-    print(f"We chose {option_player_one} for you.")
+    print(f"We chose {option_player_one} for {name_one}.")
     if option_player_one == option_player_two:
         print("It's a tie!")
     elif option_player_one == 1 and option_player_two == 2:
-        print(f"Player one chose {option_player_one} and player two chose {option_player_two}")
-        print("Player Two Wins!")
+        print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
+        print(f"{name_two} Wins!")
     elif option_player_one == 1 and option_player_two == 3:
-        print(f"Player one chose {option_player_one} and player two chose {option_player_two}")
-        print("Player One Wins")
+        print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
+        print(f"{name_one} Wins")
     elif option_player_one == 2 and option_player_two ==1:
-        print(f"Player one chose {option_player_one} and player two chose {option_player_two}")
-        print("player Two Wins")
+        print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
+        print(f"{name_two} Wins")
     elif option_player_one == 2 and option_player_two == 3:
-         print(f"Player one chose {option_player_one} and player two chose {option_player_two}")
-         print("Player One Wins!")
+         print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
+         print(f"{name_one} Wins!")
     elif option_player_one == 3 and option_player_two == 1:
-         print(f"Player one chose {option_player_one} and player two chose {option_player_two}")
-         print("Player One Wins!")
+         print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
+         print(f"{name_one} Wins!")
     else: 
         option_player_one == 3 and option_player_two == 2
-        print(f"Player one chose {option_player_one} and player two chose {option_player_two}")
-        print("Player Two Wins!")                
+        print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
+        print(f"{name_two} Wins!")                
 elif option_player_one == 1 and option_player_two == 4:
       player_two_random = random.randint(1,3)
       option_player_two = player_two_random
