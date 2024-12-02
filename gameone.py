@@ -69,6 +69,7 @@ select [1-4]: """)
     elif option_player_one == 1 and option_player_two == 3:
         print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
         print(f"{name_one} Wins!")
+        player_one_wins += 1
     elif option_player_one == 2 and option_player_two ==1:
         print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
         print(f"{name_two} Wins!")
@@ -80,9 +81,11 @@ select [1-4]: """)
     elif option_player_one == 3 and option_player_two == 1:
          print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
          print(f"{name_one} Wins!")
+         player_one_wins += 1
     elif option_player_one == 3 and option_player_two == 2:
          print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
          print(f"{name_one} Wins!")
+         player_one_wins += 1
     elif option_player_one == 4 and option_player_two == 1:
         player_one_random = random.randint(1,3)
         option_player_one = player_one_random
@@ -97,6 +100,7 @@ select [1-4]: """)
         elif option_player_one == 1 and option_player_two == 3:
             print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
             print(f"{name_one} Wins!")
+            player_one_wins += 1
         elif option_player_one == 2 and option_player_two ==1:
             print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
             print(f"{name_two} Wins!")
@@ -104,9 +108,11 @@ select [1-4]: """)
         elif option_player_one == 2 and option_player_two == 3:
              print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
              print(f"{name_one} Wins!")
+             player_one_wins += 1
         elif option_player_one == 3 and option_player_two == 1:
              print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
              print(f"{name_one} Wins!")
+             player_one_wins += 1
         else: 
             option_player_one == 3 and option_player_two == 2
             print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
@@ -126,6 +132,7 @@ select [1-4]: """)
         elif option_player_one == 1 and option_player_two == 3:
             print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
             print(f"{name_one} Wins!")
+            player_one_wins += 1
         elif option_player_one == 2 and option_player_two ==1:
             print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
             print(f"{name_two} Wins!")
@@ -133,9 +140,11 @@ select [1-4]: """)
         elif option_player_one == 2 and option_player_two == 3:
              print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
              print(f"{name_one} Wins!")
+             player_one_wins += 1
         elif option_player_one == 3 and option_player_two == 1:
              print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
              print(f"{name_one} Wins!")
+             player_one_wins += 1
         else: 
             option_player_one == 3 and option_player_two == 2
             print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
@@ -155,6 +164,7 @@ select [1-4]: """)
         elif option_player_one == 1 and option_player_two == 3:
             print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
             print(f"{name_one} Wins!")
+            player_one_wins += 1
         elif option_player_one == 2 and option_player_two ==1:
             print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
             print(f"{name_two} Wins!")
@@ -162,9 +172,11 @@ select [1-4]: """)
         elif option_player_one == 2 and option_player_two == 3:
              print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
              print(f"{name_one} Wins!")
+             player_one_wins += 1
         elif option_player_one == 3 and option_player_two == 1:
              print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
              print(f"{name_one} Wins!")
+             player_one_wins += 1
         else: 
             option_player_one == 3 and option_player_two == 2
             print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
@@ -184,6 +196,7 @@ select [1-4]: """)
           elif option_player_one == 1 and option_player_two == 3:
               print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
               print(f"{name_one} Wins!")
+              player_one_wins += 1
           elif option_player_one == 2 and option_player_two ==1:
               print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
               print(f"{name_two} Wins!")
@@ -191,9 +204,11 @@ select [1-4]: """)
           elif option_player_one == 2 and option_player_two == 3:
                print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
                print(f"{name_one} Wins!")
+               player_one_wins += 1
           elif option_player_one == 3 and option_player_two == 1:
                print(f"{name_one}chose {option_player_one} and {name_two} chose {option_player_two}")
                print(f"{name_one} Wins!")
+               player_one_wins += 1
           else: 
               option_player_one == 3 and option_player_two == 2
               print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
@@ -213,6 +228,7 @@ select [1-4]: """)
           elif option_player_one == 1 and option_player_two == 3:
               print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
               print(f"{name_one} Wins!")
+              player_one_wins += 1
           elif option_player_one == 2 and option_player_two ==1:
               print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
               print(f"{name_two} Wins!")
@@ -220,9 +236,11 @@ select [1-4]: """)
           elif option_player_one == 2 and option_player_two == 3:
                print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
                print(f"{name_one} Wins!")
+               player_one_wins += 1
           elif option_player_one == 3 and option_player_two == 1:
                print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
                print(f"{name_one} Wins!")
+               player_one_wins += 1
           else: 
               option_player_one == 3 and option_player_two == 2
               print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
@@ -250,9 +268,11 @@ select [1-4]: """)
           elif option_player_one == 2 and option_player_two == 3:
                print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
                print(f"{name_one} Wins!")
+               player_one_wins += 1
           elif option_player_one == 3 and option_player_two == 1:
                print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
                print(f"{name_one} Wins!")
+               player_one_wins += 1
           else: 
               option_player_one == 3 and option_player_two == 2
               print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
@@ -275,6 +295,7 @@ select [1-4]: """)
           elif option_player_one == 1 and option_player_two == 3:
               print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
               print(f"{name_one} Wins!")
+              player_one_wins += 1
           elif option_player_one == 2 and option_player_two ==1:
               print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
               print(f"{name_two} Wins!")
@@ -282,9 +303,11 @@ select [1-4]: """)
           elif option_player_one == 2 and option_player_two == 3:
                print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
                print(f"{name_one} Wins!")
+               player_one_wins += 1
           elif option_player_one == 3 and option_player_two == 1:
                print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
                print(f"{name_one} Wins!")
+               player_one_wins += 1
           else: 
               option_player_one == 3 and option_player_two == 2
               print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
