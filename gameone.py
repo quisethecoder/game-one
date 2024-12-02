@@ -19,6 +19,9 @@ while name_two.strip() == "":
         print("Player two, please enter your name")
         name_two = input("Player two, what is your name?: ")
 
+player_one_wins = 0
+player_two_wins = 0
+ties = 0        
 play_again = "yes"
 
 while play_again.lower() == "yes":
@@ -58,18 +61,22 @@ select [1-4]: """)
 
     if option_player_one == option_player_two and option_player_one < 4:
         print("It's a tie!")
+        ties += 1
     elif option_player_one == 1 and option_player_two == 2:
         print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
         print(f"{name_two} Wins!")
+        player_two_wins += 1
     elif option_player_one == 1 and option_player_two == 3:
         print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
         print(f"{name_one} Wins!")
     elif option_player_one == 2 and option_player_two ==1:
         print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
         print(f"{name_two} Wins!")
+        player_two_wins += 1
     elif option_player_one == 2 and option_player_two == 3:
          print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
          print(f"{name_two} Wins!")
+         player_two_wins += 1
     elif option_player_one == 3 and option_player_two == 1:
          print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
          print(f"{name_one} Wins!")
@@ -82,15 +89,18 @@ select [1-4]: """)
         print(f"We chose {option_player_one} for {name_one}.")
         if option_player_one == option_player_two:
             print("It's a tie!")
+            ties += 1
         elif option_player_one == 1 and option_player_two == 2:
             print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
             print(f"{name_two} Wins!")
+            player_two_wins += 1
         elif option_player_one == 1 and option_player_two == 3:
             print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
             print(f"{name_one} Wins!")
         elif option_player_one == 2 and option_player_two ==1:
             print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
             print(f"{name_two} Wins!")
+            player_two_wins += 1
         elif option_player_one == 2 and option_player_two == 3:
              print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
              print(f"{name_one} Wins!")
@@ -101,21 +111,25 @@ select [1-4]: """)
             option_player_one == 3 and option_player_two == 2
             print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
             print(f"{name_two} Wins!")
+            player_two_wins += 1
     elif option_player_one == 4 and option_player_two == 2:
         player_one_random = random.randint(1,3)
         option_player_one = player_one_random
         print(f"We chose {option_player_one} for {name_one}.")
         if option_player_one == option_player_two:
             print("It's a tie!")
+            ties += 1
         elif option_player_one == 1 and option_player_two == 2:
             print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
             print(f"{name_two} Wins!")
+            player_two_wins += 1
         elif option_player_one == 1 and option_player_two == 3:
             print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
             print(f"{name_one} Wins!")
         elif option_player_one == 2 and option_player_two ==1:
             print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
             print(f"{name_two} Wins!")
+            player_two_wins += 1
         elif option_player_one == 2 and option_player_two == 3:
              print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
              print(f"{name_one} Wins!")
@@ -126,21 +140,25 @@ select [1-4]: """)
             option_player_one == 3 and option_player_two == 2
             print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
             print(f"{name_two} Wins!")
+            player_two_wins += 1
     elif option_player_one == 4 and option_player_two == 3:
         player_one_random = random.randint(1,3)
         option_player_one = player_one_random
         print(f"We chose {option_player_one} for {name_one}.")
         if option_player_one == option_player_two:
             print("It's a tie!")
+            ties += 1
         elif option_player_one == 1 and option_player_two == 2:
             print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
             print(f"{name_two} Wins!")
+            player_two_wins += 1
         elif option_player_one == 1 and option_player_two == 3:
             print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
             print(f"{name_one} Wins!")
         elif option_player_one == 2 and option_player_two ==1:
             print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
             print(f"{name_two} Wins!")
+            player_two_wins += 1
         elif option_player_one == 2 and option_player_two == 3:
              print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
              print(f"{name_one} Wins!")
@@ -150,22 +168,26 @@ select [1-4]: """)
         else: 
             option_player_one == 3 and option_player_two == 2
             print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
-            print(f"{name_two} Wins!")                
+            print(f"{name_two} Wins!")
+            player_two_wins += 1                
     elif option_player_one == 1 and option_player_two == 4:
           player_two_random = random.randint(1,3)
           option_player_two = player_two_random
           print(f"We chose {player_two_random} for {name_two}")
           if option_player_two == option_player_one:
                print("It's a tie!")
+               ties += 1
           elif option_player_one == 1 and option_player_two == 2:
               print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
               print(f"{name_two} Wins!")
+              player_two_wins += 1
           elif option_player_one == 1 and option_player_two == 3:
               print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
               print(f"{name_one} Wins!")
           elif option_player_one == 2 and option_player_two ==1:
               print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
               print(f"{name_two} Wins!")
+              player_two_wins += 1
           elif option_player_one == 2 and option_player_two == 3:
                print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
                print(f"{name_one} Wins!")
@@ -176,21 +198,25 @@ select [1-4]: """)
               option_player_one == 3 and option_player_two == 2
               print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
               print(f"{name_two} Wins!")
+              player_two_wins += 1
     elif option_player_one == 2 and option_player_two == 4:
           player_two_random = random.randint(1,3)
           option_player_two = player_two_random
           print(f"We chose {player_two_random} for {name_two}")
           if option_player_two == option_player_one:
                print("It's a tie!")
+               ties += 1
           elif option_player_one == 1 and option_player_two == 2:
               print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
               print(f"{name_two} Wins!")
+              player_two_wins += 1
           elif option_player_one == 1 and option_player_two == 3:
               print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
               print(f"{name_one} Wins!")
           elif option_player_one == 2 and option_player_two ==1:
               print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
               print(f"{name_two} Wins!")
+              player_two_wins += 1
           elif option_player_one == 2 and option_player_two == 3:
                print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
                print(f"{name_one} Wins!")
@@ -200,22 +226,27 @@ select [1-4]: """)
           else: 
               option_player_one == 3 and option_player_two == 2
               print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
-              print(f"{name_two} Wins!")  
+              print(f"{name_two} Wins!")
+              player_two_wins += 1  
     elif option_player_one == 3 and option_player_two == 4:
           player_two_random = random.randint(1,3)
           option_player_two = player_two_random
           print(f"We chose {player_two_random} for {name_two}")
           if option_player_two == option_player_one:
                print("It's a tie!")
+               ties += 1
           elif option_player_one == 1 and option_player_two == 2:
               print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
               print(f"{name_two} Wins!")
+              player_two_wins += 1
           elif option_player_one == 1 and option_player_two == 3:
               print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
               print(f"{name_two} Wins!")
+              player_two_wins += 1
           elif option_player_one == 2 and option_player_two ==1:
               print(f"{name_one}chose {option_player_one} and {name_two} chose {option_player_two}")
               print(f"{name_two} Wins!")
+              player_two_wins += 1
           elif option_player_one == 2 and option_player_two == 3:
                print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
                print(f"{name_one} Wins!")
@@ -225,7 +256,8 @@ select [1-4]: """)
           else: 
               option_player_one == 3 and option_player_two == 2
               print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
-              print(f"{name_two} Wins!")                  
+              print(f"{name_two} Wins!")
+              player_two_wins += 1                  
     elif option_player_one == 4 and option_player_two == 4:
           player_two_random = random.randint(1,3)
           option_player_two = player_two_random
@@ -235,15 +267,18 @@ select [1-4]: """)
           print(f"We chose {player_two_random} for {name_two}")
           if option_player_two == option_player_one:
                print("It's a tie!")
+               ties += 1
           elif option_player_one == 1 and option_player_two == 2:
               print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
               print(f"{name_two} Wins!")
+              player_two_wins += 1
           elif option_player_one == 1 and option_player_two == 3:
               print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
               print(f"{name_one} Wins!")
           elif option_player_one == 2 and option_player_two ==1:
               print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
               print(f"{name_two} Wins!")
+              player_two_wins += 1
           elif option_player_one == 2 and option_player_two == 3:
                print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
                print(f"{name_one} Wins!")
@@ -254,8 +289,18 @@ select [1-4]: """)
               option_player_one == 3 and option_player_two == 2
               print(f"{name_one} chose {option_player_one} and {name_two} chose {option_player_two}")
               print(f"{name_two} Wins!")
+              player_two_wins += 1
 
     play_again = input("Do you want to play again [yes/no]: ")
+
+    if play_again.lower() == "no":
+        print("===========")
+        print("Game Score")
+        print("===========")
+        print(f"{name_one} wins: {player_one_wins}")
+        print(f"{name_two} wins: {player_two_wins}")
+        print(f"Ties: {ties}")
+        print("Thanks for playing! See ya next time :)")
 
 
 # Step Sequence
@@ -277,7 +322,10 @@ select [1-4]: """)
 # so if player 1 chose rock and player 2 picks papere then print player two wins
 
 
-
+# Make a variable for wins, losses and ties
+# if the user enters no then the players stats should appear
+# for this the players wins and ties should be tied to the variable and go up every time they wins
+# every time there is a tie it should be tied to the variable and go up one
 
 
 
