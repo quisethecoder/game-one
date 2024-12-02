@@ -316,6 +316,13 @@ select [1-4]: """)
 
     play_again = input("Do you want to play again [yes/no]: ")
 
+    while play_again.lower() not in ["yes", "no"] or play_again.strip() == "":
+        if play_again.strip() == "":
+            print("Please enter yes or no.")
+        else:
+            print("This is not a valid entry. Please try again.")
+        play_again = input("Do you want to play again [yes/no]: ")    
+
     if play_again.lower() == "no":
         print("===========")
         print("Game Score")
